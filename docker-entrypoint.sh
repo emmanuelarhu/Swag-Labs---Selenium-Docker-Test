@@ -90,8 +90,6 @@ case "$1" in
     *)
         echo "Usage:"
         echo "  docker run <image> test           - Run all tests"
-        echo "  docker run <image> validation     - Run validation tests only"
-        echo "  docker run <image> e2e           - Run E2E tests only"
         echo "  docker run <image> report         - Serve existing Allure report"
         echo "  docker run <image> test-and-serve - Run tests and serve report"
         echo "  docker run <image> bash           - Interactive bash shell"
