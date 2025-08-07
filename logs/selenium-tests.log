@@ -1,0 +1,1068 @@
+2025-08-07 12:00:21.023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-08-07 12:00:21.337 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:00:26.240 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:00:26.442 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-07 12:00:26.443 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:01:06.379 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-08-07 12:01:06.569 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:01:11.025 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:01:11.422 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-07 12:01:11.422 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:01:12.340 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-08-07 12:01:12.635 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:01:14.530 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-08-07 12:01:14.555 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-08-07 12:01:15.413 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-08-07 12:01:15.419 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:01:15.420 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:01:15.736 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:01:16.113 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:01:16.542 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:01:17.340 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-08-07 12:01:17.515 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-08-07 12:01:17.760 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-07 12:01:17.760 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:02:28.323 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-08-07 12:02:28.532 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:02:33.597 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:02:33.778 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-07 12:02:33.779 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:02:37.935 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-08-07 12:02:38.112 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:02:38.786 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-08-07 12:02:38.818 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-08-07 12:02:40.152 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-08-07 12:02:40.175 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:02:40.176 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:02:40.802 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:02:41.028 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:02:41.523 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:02:42.290 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-08-07 12:02:42.484 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-08-07 12:02:42.913 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-07 12:02:42.915 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:03:03.370 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-08-07 12:03:03.485 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:03:04.087 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:03:05.706 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:03:05.791 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:03:06.140 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-08-07 12:03:06.141 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:03:07.671 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-08-07 12:03:07.685 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-08-07 12:03:07.918 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-08-07 12:03:07.924 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:03:08.380 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:03:09.579 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:03:09.647 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:03:11.017 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-08-07 12:03:11.021 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:03:11.022 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:03:11.023 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:03:11.331 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:03:11.709 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:03:12.210 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:03:12.335 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-08-07 12:03:12.823 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-07 12:03:13.348 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-08-07 12:03:13.353 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:03:14.125 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:03:15.461 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:03:16.062 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:03:17.390 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout Numerical validation test
+2025-08-07 12:03:17.391 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:03:17.392 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:03:17.394 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:03:17.884 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:03:18.280 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:03:18.751 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:03:18.752 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:03:18.967 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:03:19.326 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:03:19.327 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:03:39.416 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutNumericalValidation(CheckoutValidationTest.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed15e99d1accdb5484451b2a68b5f236, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9658/devtool..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed15e99d1accdb5484451b2a68b5f236
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:03:49.549 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:03:49.986 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:03:51.311 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:03:51.396 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:03:51.685 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty First Name validation test
+2025-08-07 12:03:51.692 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:03:51.693 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:03:51.693 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:03:52.970 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:03:53.270 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:03:53.546 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:03:53.546 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:03:53.776 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:03:53.979 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:03:53.980 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:04:14.168 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyFirstNameValidation(CheckoutValidationTest.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9991f564d96a1f5ffcd052621ac7e42, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9703/devtool..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9991f564d96a1f5ffcd052621ac7e42
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:04:24.237 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:04:24.677 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:04:25.959 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:04:26.096 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:04:26.450 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty Last Name validation test
+2025-08-07 12:04:26.451 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:04:26.452 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:04:26.452 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:04:27.747 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:04:27.995 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:04:28.347 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:04:28.348 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:04:28.544 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:04:28.760 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:04:28.761 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:04:29.165 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:04:29.166 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-08-07 12:04:49.830 [main] ERROR com.saucedemo.pages.BasePage - Failed to type 'Emmanuel' into element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clearAndType(BasePage.java:33)
+	at com.saucedemo.pages.CheckoutStepOnePage.enterFirstName(CheckoutStepOnePage.java:66)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyLastNameValidation(CheckoutValidationTest.java:118)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='firstName']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df2c562ddd7a047e7875adfa4113547a, findElement {using=css selector, value=[data-test='firstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9745/devtool..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df2c562ddd7a047e7875adfa4113547a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:04:59.897 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:05:00.617 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:05:02.922 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:05:03.152 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:05:05.035 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty Postal Code validation test
+2025-08-07 12:05:05.036 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:05:05.037 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:05:05.038 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:05:05.602 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:05:05.921 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:05:06.377 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:05:06.378 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:05:06.649 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:05:06.935 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:05:06.936 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:05:27.034 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyPostalCodeValidation(CheckoutValidationTest.java:155)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0f028f940a5c5b45245d8ca0ecb6516, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9796/devtool..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f028f940a5c5b45245d8ca0ecb6516
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:05:37.092 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:05:37.429 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:05:39.259 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:05:39.789 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:05:41.111 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout valid mixed postal code test
+2025-08-07 12:05:41.113 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:05:41.114 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:05:41.115 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:05:41.568 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:05:41.854 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:05:42.571 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:05:42.573 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:05:42.759 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:05:42.955 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:05:42.956 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:05:43.268 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:05:43.270 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-08-07 12:06:03.447 [main] ERROR com.saucedemo.pages.BasePage - Failed to type 'Emmanuel' into element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clearAndType(BasePage.java:33)
+	at com.saucedemo.pages.CheckoutStepOnePage.enterFirstName(CheckoutStepOnePage.java:66)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutValidPostalCodeMixed(CheckoutValidationTest.java:198)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='firstName']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0ce5ebe21095b229e0b0d40ff374ed1, findElement {using=css selector, value=[data-test='firstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9846/devtool..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0ce5ebe21095b229e0b0d40ff374ed1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:06:13.557 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:06:13.976 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:06:16.031 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:12:27.468 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Emmanuel Arhu\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+2025-08-07 12:12:27.687 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:12:34.883 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:12:35.012 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-07 12:12:35.012 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:12:37.204 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
+2025-08-07 12:12:37.327 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:12:37.776 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-08-07 12:12:37.814 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-08-07 12:12:38.869 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
+2025-08-07 12:12:38.877 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:12:38.878 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:12:39.773 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:12:40.238 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:12:40.489 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:12:41.179 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-08-07 12:12:41.339 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
+2025-08-07 12:12:41.827 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-07 12:12:41.829 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:13:02.415 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-08-07 12:13:02.469 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:13:02.821 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:13:04.225 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:13:04.307 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:13:04.609 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
+2025-08-07 12:13:04.610 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:13:06.429 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
+2025-08-07 12:13:06.452 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
+2025-08-07 12:13:06.751 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-08-07 12:13:06.756 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:13:08.550 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:13:10.054 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:13:10.170 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:13:11.495 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
+2025-08-07 12:13:11.497 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:13:11.497 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:13:11.499 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:13:11.903 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:13:12.308 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:13:12.640 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:13:12.717 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
+2025-08-07 12:13:13.127 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-07 12:13:13.582 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-08-07 12:13:13.587 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:13:13.947 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:13:16.140 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:13:16.226 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:13:18.150 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout Numerical validation test
+2025-08-07 12:13:18.151 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:13:18.152 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:13:18.152 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:13:18.504 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:13:18.753 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:13:19.058 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:13:19.059 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:13:19.304 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:13:19.796 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:13:19.797 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:13:39.943 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutNumericalValidation(CheckoutValidationTest.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ce8740ae8e52ba52e21dad919c3c56, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10318}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10318/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ce8740ae8e52ba52e21dad919c3c56
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:13:50.023 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:13:50.361 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:13:51.969 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:13:52.417 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:13:53.044 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty First Name validation test
+2025-08-07 12:13:53.046 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:13:53.047 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:13:53.047 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:13:54.369 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:13:54.609 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:13:55.332 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:13:55.340 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:13:56.109 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:13:56.367 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:13:56.368 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:14:16.457 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyFirstNameValidation(CheckoutValidationTest.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8afb7be62e7de0facac2f5106d230b39, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10356/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8afb7be62e7de0facac2f5106d230b39
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:14:26.594 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:14:26.988 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:14:28.363 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:14:28.445 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:14:28.779 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty Last Name validation test
+2025-08-07 12:14:28.788 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:14:28.789 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:14:28.790 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:14:30.562 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:14:30.781 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:14:31.371 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:14:31.372 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:14:31.749 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:14:32.095 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:14:32.095 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:14:52.184 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyLastNameValidation(CheckoutValidationTest.java:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e00cd3fae0a843ee89c95a106c6411, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10414/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97e00cd3fae0a843ee89c95a106c6411
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:15:02.245 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:15:02.711 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:15:04.237 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:15:04.306 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:15:05.220 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout empty Postal Code validation test
+2025-08-07 12:15:05.221 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:15:05.222 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:15:05.222 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:15:06.897 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:15:07.128 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:15:07.581 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:15:07.582 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:15:07.949 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:15:08.111 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:15:08.111 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:15:28.193 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutEmptyPostalCodeValidation(CheckoutValidationTest.java:155)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [116c0e84d5d48b85dec70a85e88cf8f2, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10456/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 116c0e84d5d48b85dec70a85e88cf8f2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:15:38.268 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:15:38.463 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:15:39.251 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:15:39.306 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:15:41.010 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout valid mixed postal code test
+2025-08-07 12:15:41.010 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:15:41.010 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:15:41.010 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:15:41.326 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:15:42.083 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:15:42.347 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:15:42.347 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:15:42.695 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:15:43.108 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:15:43.108 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:15:43.331 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:15:43.332 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-08-07 12:15:43.466 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering last name: Arhu
+2025-08-07 12:15:43.567 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering postal code: K1A0A6
+2025-08-07 12:15:43.689 [main] INFO  c.s.pages.CheckoutStepOnePage - Clicking continue button
+2025-08-07 12:15:45.354 [main] INFO  c.s.pages.CheckoutStepTwoPage - CheckoutStepTwoPage initialized
+2025-08-07 12:15:45.461 [main] INFO  c.s.pages.CheckoutStepTwoPage - Checkout step two page loaded: true
+2025-08-07 12:15:45.593 [main] INFO  c.s.tests.CheckoutValidationTest - Valid mixed postal code test completed successfully
+2025-08-07 12:15:45.596 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:15:45.828 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:15:46.631 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:15:46.685 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:15:48.868 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout with empty cart test
+2025-08-07 12:15:48.869 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:15:48.870 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:15:48.870 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:15:49.212 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:15:49.758 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:15:49.936 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:15:49.937 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:15:50.071 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:16:00.089 [main] INFO  com.saucedemo.pages.CartPage - Cart item count: 0
+2025-08-07 12:16:10.156 [main] INFO  com.saucedemo.pages.CartPage - Cart item count: 0
+2025-08-07 12:16:10.156 [main] INFO  com.saucedemo.pages.CartPage - Cart is empty: true
+2025-08-07 12:16:10.231 [main] INFO  com.saucedemo.pages.CartPage - Checkout button available: true
+2025-08-07 12:16:10.231 [main] INFO  c.s.tests.CheckoutValidationTest - Checkout button is available for empty cart, testing the flow
+2025-08-07 12:16:10.231 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:16:10.397 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:16:10.443 [main] INFO  c.s.pages.CheckoutStepOnePage - Checkout step one page loaded: false
+2025-08-07 12:16:10.447 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:16:10.668 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:16:11.482 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:16:11.551 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:16:12.887 [main] INFO  c.s.tests.CheckoutValidationTest - Starting comprehensive checkout validation test with all empty fields
+2025-08-07 12:16:12.887 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:16:12.888 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:16:12.888 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:16:13.079 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:16:13.211 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:16:13.431 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:16:13.432 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:16:13.635 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Bike Light to cart
+2025-08-07 12:16:13.827 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:16:13.976 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:16:13.976 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:16:34.044 [main] ERROR com.saucedemo.pages.BasePage - Failed to click element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='checkout']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clickElement(BasePage.java:22)
+	at com.saucedemo.pages.CartPage.clickCheckoutButton(CartPage.java:95)
+	at com.saucedemo.tests.CheckoutValidationTest.testCheckoutAllEmptyFieldsValidation(CheckoutValidationTest.java:290)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='checkout']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a8e70fad0d351077b2aa617179e3ad4, findElement {using=css selector, value=[data-test='checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10618}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10618/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a8e70fad0d351077b2aa617179e3ad4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:16:44.116 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:16:44.472 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:16:45.420 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:16:45.489 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:16:45.819 [main] INFO  c.s.tests.CheckoutValidationTest - Starting successful checkout with valid data test
+2025-08-07 12:16:45.819 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:16:45.820 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:16:45.820 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:16:47.086 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:16:47.245 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:16:47.402 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:16:47.402 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:16:47.540 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Bike Light to cart
+2025-08-07 12:16:47.649 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:16:47.781 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:16:47.782 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:16:47.913 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:16:47.913 [main] INFO  c.s.pages.CheckoutStepOnePage - Entering first name: Emmanuel
+2025-08-07 12:17:08.032 [main] ERROR com.saucedemo.pages.BasePage - Failed to type 'Emmanuel' into element: Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-test='firstName']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.saucedemo.pages.BasePage.clearAndType(BasePage.java:33)
+	at com.saucedemo.pages.CheckoutStepOnePage.enterFirstName(CheckoutStepOnePage.java:66)
+	at com.saucedemo.tests.CheckoutValidationTest.testSuccessfulCheckoutWithValidData(CheckoutValidationTest.java:340)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test='firstName']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe6c6c8471b5a7b1656d9fdafa047748, findElement {using=css selector, value=[data-test='firstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\EMMANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10664}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10664/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe6c6c8471b5a7b1656d9fdafa047748
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 28 common frames omitted
+2025-08-07 12:17:18.053 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-07 12:17:18.463 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-07 12:17:19.259 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
+2025-08-07 12:17:19.310 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-07 12:17:20.714 [main] INFO  c.s.tests.CheckoutValidationTest - Starting checkout cancel button test
+2025-08-07 12:17:20.714 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
+2025-08-07 12:17:20.715 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
+2025-08-07 12:17:20.715 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
+2025-08-07 12:17:20.932 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
+2025-08-07 12:17:21.072 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
+2025-08-07 12:17:21.242 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
+2025-08-07 12:17:21.242 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-07 12:17:21.380 [main] INFO  com.saucedemo.pages.InventoryPage - Clicking shopping cart link
+2025-08-07 12:17:21.540 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:17:21.541 [main] INFO  com.saucedemo.pages.CartPage - Clicking checkout button
+2025-08-07 12:17:21.695 [main] INFO  c.s.pages.CheckoutStepOnePage - CheckoutStepOnePage initialized
+2025-08-07 12:17:21.780 [main] INFO  c.s.pages.CheckoutStepOnePage - Checkout step one page loaded: true
+2025-08-07 12:17:21.780 [main] INFO  c.s.pages.CheckoutStepOnePage - Clicking cancel button
+2025-08-07 12:17:22.005 [main] INFO  com.saucedemo.pages.CartPage - CartPage initialized
+2025-08-07 12:17:22.084 [main] INFO  com.saucedemo.pages.CartPage - Cart page loaded: false
+2025-08-07 12:17:22.087 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources

@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  saucedemo-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: saucedemo-test-runner
+    environment:
+      - BROWSER=chrome
+      - HEADLESS=true
+    volumes:
+      # Mount results directory to persist reports
+      - ./target:/app/target
+      - ./logs:/app/logs
+    ports:
+      - "8080:8080"  # For Allure report server
+    command: test  # Default: run all tests
+
+  # Service to just serve the Allure report
+  allure-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: saucedemo-allure-server
+    volumes:
+      - ./target:/app/target
+    ports:
+      - "8080:8080"
+    command: report
+    depends_on:
+      - saucedemo-tests
+
+networks:
+  default:
+    name: saucedemo-network
