@@ -3,7 +3,7 @@
 echo "🚀 Running tests..."
 
 # Run tests (continue even if they fail)
-mvn clean test -Dbrowser=chrome -Dheadless=true || echo "⚠️ Tests completed with failures"
+mvn test -Dbrowser=chrome -Dheadless=true || echo "⚠️ Tests completed with failures"
 
 echo "📊 Starting Allure report server..."
 
