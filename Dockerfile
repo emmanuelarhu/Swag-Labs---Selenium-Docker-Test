@@ -1,5 +1,9 @@
 FROM maven:3.9.6-eclipse-temurin-21
 
+# Add cache-busting ARG before instruction you want to rebuild
+ARG CACHEBUST=1
+
+# This instruction will NOT use cache (rebuilds every time)
 # Install Chrome and Allure
 RUN apt-get update && apt-get install -y \
     wget \
