@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: docker build -t swaglabs/selenium-tests:1.0 .
-      - run: docker run --rm --name swaglabs-test-runner -p 8080:8080 swaglabs/selenium-tests:1.0
+      - run: docker run --rm --name swaglabs-test-runner sleep 7200 -p 8080:8080 swaglabs/selenium-tests:1.0
