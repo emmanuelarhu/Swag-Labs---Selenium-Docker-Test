@@ -26,9 +26,12 @@ jobs:
           ls -la target/allure-report/ || echo "No allure-report found"
 
       - name: Deploy to GitHub Pages
-        if: always() && github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
+        if: always() && github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: target/allure-report
-          force_orphan: true
+          publish_branch: gh-pages
+          publish_dir: allure-history
+          force_orphan: false  # Keep history for better trending
+          enable_jekyll: false
+          commit_message: '📊 Update test reports for ${{ github.sha }}'
