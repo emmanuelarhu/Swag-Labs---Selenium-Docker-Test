@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y \
     gnupg \
     curl \
     unzip \
-    sudo \
     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list \
     && apt-get update \
@@ -24,32 +23,22 @@ RUN wget -q https://github.com/allure-framework/allure2/releases/download/2.25.0
     && ln -s /opt/allure/bin/allure /usr/local/bin/allure \
     && rm allure-2.25.0.tgz
 
-# Create a non-root user
-RUN useradd -m -s /bin/bash emmanuel && \
-    usermod -aG sudo emmanuel && \
-    echo "emmanuel ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
-
-# Set working directory and change ownership
 WORKDIR /app
-RUN chown -R emmanuel:emmanuel /app
-
-# Switch to non-root user for Maven operations
-USER emmanuel
 
 # Copy Maven files first (for better caching)
-COPY --chown=emmanuel:emmanuel pom.xml .
+COPY pom.xml .
 
 # Download dependencies (this will be cached if pom.xml doesn't change)
 RUN mvn dependency:go-offline -B
 
 # Copy rest of the project
-COPY --chown=emmanuel:emmanuel . .
-
-# Copy and set up entrypoint script
-COPY --chown=emmanuel:emmanuel docker-entrypoint.sh /entrypoint.sh
-RUN sudo chmod +x /entrypoint.sh
+COPY . .
 
 # Expose port for Allure report
 EXPOSE 8080
+
+# Create simple entrypoint script
+COPY docker-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 CMD ["/entrypoint.sh"]
