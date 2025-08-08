@@ -22,4 +22,4 @@ else
     echo "<h1>No Test Results Found</h1><p>Tests may have failed to run or no test results were generated.</p>" > target/allure-report/index.html
 fi
 
-echo "🏁 Done! Exiting..."
+echo "🏁  Done! Exiting..."
