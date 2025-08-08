@@ -4,12 +4,12 @@
     <parameter name="browser" value="chrome"/>
 
     <listeners>
-        <listener class-name="com.saucedemo.listeners.TestListener"/>
+        <listener class-name="com.swaglabs.listeners.TestListener"/>
     </listeners>
 
     <test name="SauceDemo E2E Tests" preserve-order="true">
         <classes>
-            <class name="com.saucedemo.tests.SauceDemoTest">
+            <class name="com.swaglabs.tests.SwagLabsTest">
                 <methods>
                     <include name="testLoginPageElements"/>
                     <include name="testInventoryPageAfterLogin"/>

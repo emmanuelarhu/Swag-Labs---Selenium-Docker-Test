@@ -1,8 +1,8 @@
-package com.saucedemo.tests;
+package com.swaglabs.tests;
 
-import com.saucedemo.base.BaseTest;
-import com.saucedemo.pages.*;
-import com.saucedemo.utils.TestDataReader;
+import com.swaglabs.base.BaseTest;
+import com.swaglabs.pages.*;
+import com.swaglabs.utils.TestDataReader;
 import io.qameta.allure.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -408,7 +408,7 @@ public class CheckoutValidationTest extends BaseTest {
             Thread.sleep(1000);
 
             // Handle potential browser popups (like password manager)
-            com.saucedemo.utils.AlertHandler.handlePasswordChangeAlert(driver, 3);
+            com.swaglabs.utils.AlertHandler.handlePasswordChangeAlert(driver, 3);
 
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

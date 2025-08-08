@@ -1,4 +1,4 @@
-package com.saucedemo.runner;
+package com.swaglabs.runner;
 
 import org.testng.TestNG;
 import org.testng.xml.XmlClass;
@@ -30,7 +30,7 @@ public class TestRunner {
 
         // Add test classes
         List<XmlClass> classes = new ArrayList<>();
-        classes.add(new XmlClass("com.saucedemo.tests.SauceDemoTest"));
+        classes.add(new XmlClass("com.saucedemo.tests.SwagLabsTest"));
         test.setXmlClasses(classes);
 
         // Create TestNG instance and run

@@ -1,4 +1,4 @@
-package com.saucedemo.utils;
+package com.swaglabs.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

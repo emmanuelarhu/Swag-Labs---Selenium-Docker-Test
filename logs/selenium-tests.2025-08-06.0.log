@@ -1,49 +1,49 @@
-2025-08-06 16:20:18.457 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
-2025-08-06 16:20:34.175 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
-2025-08-06 16:20:34.551 [main] INFO  com.saucedemo.utils.ConfigReader - Configuration properties loaded successfully
-2025-08-06 16:20:34.551 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-06 16:20:18.457 [main] INFO  com.swaglabs.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-06 16:20:34.175 [main] INFO  com.swaglabs.base.BaseTest - Driver initialized for browser: chrome
+2025-08-06 16:20:34.551 [main] INFO  com.swaglabs.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-06 16:20:34.551 [main] INFO  com.swaglabs.base.BaseTest - Navigating to: https://www.saucedemo.com
 2025-08-06 16:20:36.636 [main] INFO  c.saucedemo.listeners.TestListener - Starting test: testCompleteShoppingFlow
-2025-08-06 16:20:36.638 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting complete shopping flow test
-2025-08-06 16:20:36.728 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
-2025-08-06 16:20:37.189 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
-2025-08-06 16:20:37.199 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
-2025-08-06 16:20:37.762 [main] INFO  com.saucedemo.utils.TestDataReader - Test data loaded successfully
-2025-08-06 16:20:37.766 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
-2025-08-06 16:20:37.766 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
-2025-08-06 16:20:37.980 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
-2025-08-06 16:20:38.455 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
-2025-08-06 16:20:38.755 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
-2025-08-06 16:20:39.244 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
-2025-08-06 16:20:39.442 [main] INFO  com.saucedemo.pages.InventoryPage - Page title 'Products' displayed: true
-2025-08-06 16:20:39.619 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
-2025-08-06 16:20:39.620 [main] INFO  com.saucedemo.pages.InventoryPage - Adding Sauce Labs Backpack to cart
-2025-08-06 16:20:59.878 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack added to cart: false
+2025-08-06 16:20:36.638 [main] INFO  com.swaglabs.tests.SwagLabsTest - Starting complete shopping flow test
+2025-08-06 16:20:36.728 [main] INFO  com.swaglabs.pages.LoginPage - LoginPage initialized
+2025-08-06 16:20:37.189 [main] INFO  com.swaglabs.pages.LoginPage - Login page displayed: true
+2025-08-06 16:20:37.199 [main] INFO  com.swaglabs.pages.LoginPage - Page title: Swag Labs
+2025-08-06 16:20:37.762 [main] INFO  com.swaglabs.utils.TestDataReader - Test data loaded successfully
+2025-08-06 16:20:37.766 [main] INFO  com.swaglabs.pages.LoginPage - Logging in with username: standard_user
+2025-08-06 16:20:37.766 [main] INFO  com.swaglabs.pages.LoginPage - Entering username: standard_user
+2025-08-06 16:20:37.980 [main] INFO  com.swaglabs.pages.LoginPage - Entering password
+2025-08-06 16:20:38.455 [main] INFO  com.swaglabs.pages.LoginPage - Clicking login button
+2025-08-06 16:20:38.755 [main] INFO  com.swaglabs.pages.InventoryPage - InventoryPage initialized
+2025-08-06 16:20:39.244 [main] INFO  com.swaglabs.pages.InventoryPage - Inventory page loaded: true
+2025-08-06 16:20:39.442 [main] INFO  com.swaglabs.pages.InventoryPage - Page title 'Products' displayed: true
+2025-08-06 16:20:39.619 [main] INFO  com.swaglabs.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-06 16:20:39.620 [main] INFO  com.swaglabs.pages.InventoryPage - Adding Sauce Labs Backpack to cart
+2025-08-06 16:20:59.878 [main] INFO  com.swaglabs.pages.InventoryPage - Backpack added to cart: false
 2025-08-06 16:20:59.895 [main] ERROR c.saucedemo.listeners.TestListener - Test failed: testCompleteShoppingFlow - Backpack should be added to cart expected [true] but found [false]
-2025-08-06 16:21:00.130 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
-2025-08-06 16:21:00.342 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
-2025-08-06 16:21:01.484 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
-2025-08-06 16:21:01.533 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-06 16:21:00.130 [main] INFO  com.swaglabs.base.BaseTest - Closing browser and cleaning up resources
+2025-08-06 16:21:00.342 [main] INFO  com.swaglabs.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-06 16:21:01.484 [main] INFO  com.swaglabs.base.BaseTest - Driver initialized for browser: chrome
+2025-08-06 16:21:01.533 [main] INFO  com.swaglabs.base.BaseTest - Navigating to: https://www.saucedemo.com
 2025-08-06 16:21:03.965 [main] INFO  c.saucedemo.listeners.TestListener - Starting test: testLoginPageElements
-2025-08-06 16:21:03.966 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting login page elements test
-2025-08-06 16:21:03.966 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
-2025-08-06 16:21:04.226 [main] INFO  com.saucedemo.pages.LoginPage - Login page displayed: true
-2025-08-06 16:21:04.235 [main] INFO  com.saucedemo.pages.LoginPage - Page title: Swag Labs
-2025-08-06 16:21:04.436 [main] INFO  com.saucedemo.tests.SauceDemoTest - Login page elements test completed successfully
+2025-08-06 16:21:03.966 [main] INFO  com.swaglabs.tests.SwagLabsTest - Starting login page elements test
+2025-08-06 16:21:03.966 [main] INFO  com.swaglabs.pages.LoginPage - LoginPage initialized
+2025-08-06 16:21:04.226 [main] INFO  com.swaglabs.pages.LoginPage - Login page displayed: true
+2025-08-06 16:21:04.235 [main] INFO  com.swaglabs.pages.LoginPage - Page title: Swag Labs
+2025-08-06 16:21:04.436 [main] INFO  com.swaglabs.tests.SwagLabsTest - Login page elements test completed successfully
 2025-08-06 16:21:04.437 [main] INFO  c.saucedemo.listeners.TestListener - Test passed: testLoginPageElements
-2025-08-06 16:21:04.443 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
-2025-08-06 16:21:05.325 [main] INFO  com.saucedemo.base.BaseTest - Setting up test environment for browser: chrome
-2025-08-06 16:21:06.495 [main] INFO  com.saucedemo.base.BaseTest - Driver initialized for browser: chrome
-2025-08-06 16:21:06.557 [main] INFO  com.saucedemo.base.BaseTest - Navigating to: https://www.saucedemo.com
+2025-08-06 16:21:04.443 [main] INFO  com.swaglabs.base.BaseTest - Closing browser and cleaning up resources
+2025-08-06 16:21:05.325 [main] INFO  com.swaglabs.base.BaseTest - Setting up test environment for browser: chrome
+2025-08-06 16:21:06.495 [main] INFO  com.swaglabs.base.BaseTest - Driver initialized for browser: chrome
+2025-08-06 16:21:06.557 [main] INFO  com.swaglabs.base.BaseTest - Navigating to: https://www.saucedemo.com
 2025-08-06 16:21:06.858 [main] INFO  c.saucedemo.listeners.TestListener - Starting test: testInventoryPageAfterLogin
-2025-08-06 16:21:06.859 [main] INFO  com.saucedemo.tests.SauceDemoTest - Starting inventory page test
-2025-08-06 16:21:06.860 [main] INFO  com.saucedemo.pages.LoginPage - LoginPage initialized
-2025-08-06 16:21:06.861 [main] INFO  com.saucedemo.pages.LoginPage - Logging in with username: standard_user
-2025-08-06 16:21:06.862 [main] INFO  com.saucedemo.pages.LoginPage - Entering username: standard_user
-2025-08-06 16:21:08.160 [main] INFO  com.saucedemo.pages.LoginPage - Entering password
-2025-08-06 16:21:08.414 [main] INFO  com.saucedemo.pages.LoginPage - Clicking login button
-2025-08-06 16:21:08.638 [main] INFO  com.saucedemo.pages.InventoryPage - InventoryPage initialized
-2025-08-06 16:21:08.893 [main] INFO  com.saucedemo.pages.InventoryPage - Inventory page loaded: true
-2025-08-06 16:21:09.187 [main] INFO  com.saucedemo.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
-2025-08-06 16:21:09.485 [main] INFO  com.saucedemo.tests.SauceDemoTest - Inventory page test completed successfully
+2025-08-06 16:21:06.859 [main] INFO  com.swaglabs.tests.SwagLabsTest - Starting inventory page test
+2025-08-06 16:21:06.860 [main] INFO  com.swaglabs.pages.LoginPage - LoginPage initialized
+2025-08-06 16:21:06.861 [main] INFO  com.swaglabs.pages.LoginPage - Logging in with username: standard_user
+2025-08-06 16:21:06.862 [main] INFO  com.swaglabs.pages.LoginPage - Entering username: standard_user
+2025-08-06 16:21:08.160 [main] INFO  com.swaglabs.pages.LoginPage - Entering password
+2025-08-06 16:21:08.414 [main] INFO  com.swaglabs.pages.LoginPage - Clicking login button
+2025-08-06 16:21:08.638 [main] INFO  com.swaglabs.pages.InventoryPage - InventoryPage initialized
+2025-08-06 16:21:08.893 [main] INFO  com.swaglabs.pages.InventoryPage - Inventory page loaded: true
+2025-08-06 16:21:09.187 [main] INFO  com.swaglabs.pages.InventoryPage - Backpack title displayed: true, Bike Light title displayed: true
+2025-08-06 16:21:09.485 [main] INFO  com.swaglabs.tests.SwagLabsTest - Inventory page test completed successfully
 2025-08-06 16:21:09.486 [main] INFO  c.saucedemo.listeners.TestListener - Test passed: testInventoryPageAfterLogin
-2025-08-06 16:21:09.490 [main] INFO  com.saucedemo.base.BaseTest - Closing browser and cleaning up resources
+2025-08-06 16:21:09.490 [main] INFO  com.swaglabs.base.BaseTest - Closing browser and cleaning up resources

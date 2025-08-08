@@ -1,4 +1,4 @@
-name: Tests
+name: Swag Labs Tests
 
 on: [push]
 
@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: docker build --no-cache -t manuelarhu/saucedemo-selenium-tests .
-      - run: docker run --rm --name saucedemo-ci-runner -v $PWD/target:/app/target manuelarhu/saucedemo-selenium-tests
+      - run: docker build --no-cache -t manuelarhu/swaglabs-selenium-tests .
+      - run: docker run --rm --name swaglabs-ci-runner -v $PWD/target:/app/target manuelarhu/swaglabs-selenium-tests

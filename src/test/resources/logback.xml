@@ -28,7 +28,7 @@
     </root>
 
     <!-- Package-specific loggers -->
-    <logger name="com.saucedemo" level="INFO" additivity="false">
+    <logger name="com.swaglabs" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </logger>

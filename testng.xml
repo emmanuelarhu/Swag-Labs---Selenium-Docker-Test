@@ -4,7 +4,7 @@
     <test name="Chrome Tests">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.saucedemo.tests.SauceDemoTest"/>
+            <class name="com.swaglabs.tests.SwagLabsTest"/>
         </classes>
     </test>
 </suite>

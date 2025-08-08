@@ -1,4 +1,4 @@
-package com.saucedemo.utils;
+package com.swaglabs.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ public class FormValidationHelper {
     private static final Logger logger = LoggerFactory.getLogger(FormValidationHelper.class);
 
     /**
-     * Common error message patterns for SauceDemo
+     * Common error message patterns for SwagLabs
      */
     public static final String[] FIRST_NAME_ERROR_PATTERNS = {
             "First Name is required",

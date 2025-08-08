@@ -1,6 +1,6 @@
-package com.saucedemo.listeners;
+package com.swaglabs.listeners;
 
-import com.saucedemo.base.BaseTest;
+import com.swaglabs.base.BaseTest;
 import io.qameta.allure.Attachment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

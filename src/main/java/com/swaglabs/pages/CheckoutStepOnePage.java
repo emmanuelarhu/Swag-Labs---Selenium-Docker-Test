@@ -1,4 +1,4 @@
-package com.saucedemo.pages;
+package com.swaglabs.pages;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -233,7 +233,7 @@ public class CheckoutStepOnePage extends BasePage {
             logger.debug("No error message found with any selector: {}", e.getMessage());
         }
 
-        // Try specific SauceDemo error patterns
+        // Try specific SwagLabs error patterns
         try {
             WebElement sauceDemoError = driver.findElement(By.cssSelector(".error-message-container h3"));
             if (sauceDemoError.isDisplayed()) {

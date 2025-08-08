@@ -1,6 +1,6 @@
-package com.saucedemo.base;
+package com.swaglabs.base;
 
-import com.saucedemo.utils.ConfigReader;
+import com.swaglabs.utils.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;

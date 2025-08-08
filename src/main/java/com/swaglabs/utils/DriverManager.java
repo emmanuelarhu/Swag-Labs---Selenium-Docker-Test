@@ -1,4 +1,4 @@
-package com.saucedemo.utils;
+package com.swaglabs.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.OutputType;

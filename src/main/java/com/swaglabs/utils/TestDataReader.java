@@ -1,4 +1,4 @@
-package com.saucedemo.utils;
+package com.swaglabs.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

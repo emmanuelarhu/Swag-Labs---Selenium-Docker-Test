@@ -1,8 +1,8 @@
-package com.saucedemo.tests;
+package com.swaglabs.tests;
 
-import com.saucedemo.base.BaseTest;
-import com.saucedemo.pages.*;
-import com.saucedemo.utils.TestDataReader;
+import com.swaglabs.base.BaseTest;
+import com.swaglabs.pages.*;
+import com.swaglabs.utils.TestDataReader;
 import io.qameta.allure.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 
 @Epic("SauceDemo E2E Testing")
 @Feature("Complete Shopping Flow")
-public class SauceDemoTest extends BaseTest {
-    private static final Logger logger = LoggerFactory.getLogger(SauceDemoTest.class);
+public class SwagLabsTest extends BaseTest {
+    private static final Logger logger = LoggerFactory.getLogger(SwagLabsTest.class);
 
     @Test(description = "Complete shopping flow from login to order completion")
     @Story("User can complete full shopping journey")
