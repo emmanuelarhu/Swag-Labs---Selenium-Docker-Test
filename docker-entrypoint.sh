@@ -9,21 +9,17 @@ echo "📊 Generating Allure report..."
 
 # Check if results exist
 if [ -d "target/allure-results" ] && [ "$(ls -A target/allure-results)" ]; then
-    # Generate static HTML report
+    # Generate static HTML report (not serve)
     allure generate target/allure-results -o target/allure-report --clean
     echo "✅ Allure report generated in target/allure-report"
+
+    # List files for debugging
+    echo "Report files:"
+    ls -la target/allure-report/
 else
     echo "❌ No test results found"
     mkdir -p target/allure-report
-    echo "<h1>No test results found</h1>" > target/allure-report/index.html
+    echo "<h1>No Test Results Found</h1><p>Tests may have failed to run or no test results were generated.</p>" > target/allure-report/index.html
 fi
 
-# In CI: just generate report and exit
-# In local: serve the report
-if [ "$CI" = "true" ] || [ "$GITHUB_ACTIONS" = "true" ]; then
-    echo "🏁 Running in CI - report generated, exiting"
-    exit 0
-else
-    echo "🌐 Starting Allure server on port 8080..."
-    allure serve target/allure-results -h 0.0.0.0 -p 8080
-fi
+echo "🏁 Done! Exiting..."
