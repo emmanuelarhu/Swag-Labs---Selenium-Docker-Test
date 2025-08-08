@@ -1,6 +1,6 @@
-name: Tests
+name: Swag Labs Tests
 
-on: [push, pull_request]
+on: [push]
 
 # Fix permissions
 permissions:
@@ -20,13 +20,13 @@ jobs:
       - name: Build Docker image
         run: docker build --no-cache -t swaglabs-tests .
 
-      - name: Run tests
+      - name: Run Swag Labs tests
         run: |
           docker run --rm --name swaglabs-ci-runner \
             -v ${{ github.workspace }}/target:/app/target \
             swaglabs-tests
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
