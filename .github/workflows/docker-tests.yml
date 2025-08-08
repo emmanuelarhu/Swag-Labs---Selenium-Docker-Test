@@ -2,36 +2,36 @@ name: Tests
 
 on: [push, pull_request]
 
+# Fix permissions
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
         run: docker build --no-cache -t swaglabs-tests .
 
-      - name: Run tests in Docker
+      - name: Run tests
         run: |
           docker run --rm --name swaglabs-ci-runner \
             -v ${{ github.workspace }}/target:/app/target \
             swaglabs-tests
 
-      - name: Check generated report
-        if: always()
-        run: |
-          echo "Checking for generated files..."
-          find target -name "*.html" -type f | head -10
-          ls -la target/allure-report/ || echo "No allure-report found"
-
       - name: Deploy to GitHub Pages
-        if: always() && github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v4
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
-          force_orphan: false  # Keep history for better trending
-          enable_jekyll: false
-          commit_message: '📊 Update test reports for ${{ github.sha }}'
+          publish_dir: target/allure-report
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
