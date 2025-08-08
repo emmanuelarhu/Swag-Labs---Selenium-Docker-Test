@@ -1,11 +1,34 @@
-name: Swag Labs Tests
+name: Tests
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: docker build --no-cache -t manuelarhu/swaglabs-selenium-tests .
-      - run: docker run --rm --name swaglabs-ci-runner -v $PWD/target:/app/target manuelarhu/swaglabs-selenium-tests
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build --no-cache -t swaglabs-tests .
+
+      - name: Run tests in Docker
+        run: |
+          docker run --rm --name swaglabs-ci-runner \
+            -v ${{ github.workspace }}/target:/app/target \
+            swaglabs-tests
+
+      - name: Check generated report
+        if: always()
+        run: |
+          echo "Checking for generated files..."
+          find target -name "*.html" -type f | head -10
+          ls -la target/allure-report/ || echo "No allure-report found"
+
+      - name: Deploy to GitHub Pages
+        if: always() && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: target/allure-report
+          force_orphan: true
